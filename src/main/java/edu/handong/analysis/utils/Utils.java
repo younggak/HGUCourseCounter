@@ -1,9 +1,15 @@
 package edu.handong.analysis.utils;
 
+import java.util.ArrayList;
+
 public class Utils {
 
-	public Utils() {
-		// TODO Auto-generated constructor stub
+	public static ArrayList<String> getLines(String file,boolean removeHeader) {
+		
+		return null;
+	}
+	public static void writeAFile(ArrayList<String> lines, String targetFileName) {
+		
 	}
 
 }

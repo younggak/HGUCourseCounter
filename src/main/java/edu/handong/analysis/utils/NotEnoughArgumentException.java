@@ -1,9 +1,12 @@
 package edu.handong.analysis.utils;
 
-public class NotEnoughArgumentException {
+public class NotEnoughArgumentException extends Exception {
 
 	public NotEnoughArgumentException() {
-		// TODO Auto-generated constructor stub
+		super("Not Enough ArgumentException");
+	}
+	public NotEnoughArgumentException(String message) {
+		super(message);
 	}
 
 }
