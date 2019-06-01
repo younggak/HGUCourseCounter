@@ -13,7 +13,6 @@ public class Course {
 	private int semesterCourseTaken;
 
 	public Course(String line) {
-		// TODO Auto-generated constructor stub
 		// Split the line from constructor to initialize the field.
  
 	}
